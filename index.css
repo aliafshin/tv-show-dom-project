@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url(pics/wallpaperflare.com_wallpaper\ \(2\).jpg);
+}
+header{
+    height: 50px;
+    background-color: black;
+    opacity: 0.5;
+}
+#search
+{
+    height: 45px;
+    margin-top: 2px;
+    margin-left: 15px;
+    color: white;
+    background-color: black;
+    width: 25%;
+    border: 0px;
+}
+.cardContainer
+{
+    height: 320px;
+    width: 500px;
+    margin: 30px;
+    border: 2px white;
+    background-color: white;
+    border-radius: 20px;
+
+}
+#content
+{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+     align-items: stretch;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 50px;
+}
+.et {
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
